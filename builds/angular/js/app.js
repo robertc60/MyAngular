@@ -12,7 +12,6 @@ myApp.config(['$routeProvider', function($routeProvider) {
     .when('/details', {
       templateUrl: 'js/partials/details.html',
       controller: 'DetailsController'
-    })
-    ;
+    });
 }]);
 
